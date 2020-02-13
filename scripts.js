@@ -27,7 +27,7 @@
 // }).then((v) => {
 //     console.log("The final result is: " + v);
 // }).catch((err) => {
-//     console.log(new Error('Something went wrong!'));
+//     console.log(new Error('Something went terribly wrong!'));
 // });
 // function say(v) {
 //     console.log(v);
@@ -61,4 +61,4 @@ val().then(
     async () => { say("The final result is: " + v) }
 ).catch(
     async () => { say(new Error('Something went terribly wrong!'))}
-)
+);
